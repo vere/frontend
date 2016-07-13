@@ -1,1 +1,64 @@
-gitѧϰ
+git command
+
+git命令
+
+创建版本库
+$ mkdir xxx
+$ cd xxx
+$ pwd //显示当前目录
+
+初始化
+$ git init
+
+把文件添加到库
+$ git add xxx.xx
+
+提交
+$ git commit -m "diff"
+
+查看状态
+$ git status
+
+查看不同
+$ git diff HEAD -- xxx.xx
+
+查看记录
+$ git log
+
+退回版本
+$git reset --hard HEAD^  // 用HEAD表示当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^
+
+$git reset --hard id
+
+查看命令记录
+$git reflog
+
+撤销修改
+$git checkout -- xxx.xx
+
+删除文件
+$ rm xxx.xx
+$ git rm xxx.xx
+$ git commit -m "diff"
+
+远程仓库，创建ssh key
+$ ssh-keygen -t rsa -C "youremail@example.com"
+关联远程仓库
+$ git remote add origin git@github.com:githubid/rabname.git
+推送
+$ git push -u origin master //-u为关联分支
+
+$ git push origin master
+
+克隆
+$ git clone git@github.com:git_dic_address.git
+
+
+
+
+
+
+
+
+
+
