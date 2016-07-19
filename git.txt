@@ -54,9 +54,11 @@ $ git push origin master
 $ git clone git@github.com:git_dic_address.git
 
 
-
-
-
+大文件管理
+git lfs track "*.pdf"
+git add file.pdf
+git commit -m "Add design file"
+git push origin master
 
 
 
